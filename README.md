@@ -1,18 +1,23 @@
-# The Missing Semester of Your CS Education [[![Build Status](https://travis-ci.com/missing-semester/missing-semester.svg?branch=master)](https://travis-ci.com/missing-semester/missing-semester)]
+<div dir='rtl'>
 
-Website for the [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) class!
+# ترم گمشده شما در علوم کامپیوتر [[![Build Status](https://travis-ci.com/missing-semester/missing-semester.svg?branch=master)](https://travis-ci.com/missing-semester/missing-semester)]
 
-Contributions are most welcome! If you have edits or new content to add, please
-open an issue or submit a pull request.
+وبگاه ترم گمشده علوم کامپوتر را [اینجا](https://cs-fum.github.io/) ببینید.
 
-## Development
+این دوره صرفا یکی از ترجمه‌های [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) است.
 
-To build and view the site locally, run:
+از مشارکت‌های شما صمیما قدردانی خواهیم کرد. اگر می‌خواهید قسمت جدیدی را ترجمه کنید یا مطلب جدیدی بنویسید، ابتدا شاخه (branch) جدیدی بسازید و ترجمه‌های خود را در آنجا قرار دهید.
+
+## توسعه
+
+برای اجرا کردن وبگاه برای خود، دستور زیر را اجرا کنید
 
 ```bash
 bundle exec jekyll serve -w
 ```
 
-## License
+## مجوز
 
-All the content in this course, including the website source code, lecture notes, exercises, and lecture videos is licensed under Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [here](https://missing.csail.mit.edu/license) for more information on contributions or translations.
+تمام مطالب این دوره مانند سورس‌کد، یادداشت‌های یادداشت‌های کلاسی، تمرین‌ها و ویدئوها تحت مجوز [کریتیو کامنز اتریبیوشن ۴.۰ اینترنشنال](http://creativecommons.org/licenses/by/4.0/deed.fa) قرار دارند.
+برای اطلاعات بیشتر درباره ترجمه و مشارکت، [اینجا](https://cs-fum.github.io/license/) را ببینید.
+</div>
