@@ -166,6 +166,14 @@ hr {
 
 /* Classes */
 
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
 .title {
   font-size: 2rem;
 }
