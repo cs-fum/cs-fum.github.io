@@ -2,6 +2,8 @@
 layout: default
 ---
 
-<h1 class="title">{{ page.title }}{% if page.subtitle %} <span class="subtitle">{{ page.subtitle }}</span>{% endif %}</h1>
+<div class="{{ page.direction }}">
+  <h1 class="title">{{ page.title }}{% if page.subtitle %} <span class="subtitle">{{ page.subtitle }}</span>{% endif %}</h1>
 
-{{ content }}
+  {{ content }}
+</div>
