@@ -1,33 +1,36 @@
 ---
 layout: default
-title: "License"
+title: "مجوز و رهنمون"
 permalink: /license/
+direction: rtl
 ---
 
-# License
+# مجوز
 
-All the content in this course, including the website source code, lecture notes, exercises, and lecture videos is licensed under Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+تمام محتوای این دوره، از جمله کدمنبع، یادداشت‌ها، تمرین‌ها و ویدئوها تحت مجوز کریتیو کامنز اختیار-غیرتجاری-اشتراک همانند ۴.۰ بین‌المللی [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa) هستند.
 
-This means that you are free to:
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material
 
-Under the following terms:
+معنی شما مجاز هستید که:
+- **اشتراک بگذارید** — در هر قالب یا رسانه  نسخه‌برداری کنید و توزیع کنید.
+- **مطابقت دهید** — بر اساس آن مواد بسازید، ترکیب کنید یا تغییر دهید.
 
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial** — You may not use the material for commercial purposes.
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+تا وقتی که تحت شرایط زیر باشد:
+- **تخصیص** — شما باید اعتبار مناسب ببخشید، یک پیوند به مجوز ارائه کنید، و اگر تغییری صورت گرفته‌است به آن اشاره کنید. شما می‌توانید این کار را به هر شیوه معقول انجام دهید، اما نه به هر روش که نشان دهد مجوزدهنده شما یا استفاده‌تان را تأیید می‌کند.
+- **غیر تجاری** — شما نمی‌توانید از این مواد برای اهداف تجاری استفاده کنید.
+- **سهم یکسان** — اگر این مواد را ترکیب کنید، تغییر دهید، یا بر اساس آن بسازید، باید مشارکت‌هایتان را تحت همان مجوز به عنوان اصلی توزیع کنید.
 
-This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+این تنها یک نسخه خوانا (نه جایگزین) برای [مجوز](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) است.
 
-## Contribution guidelines
 
-You can submit corrections and suggestions to the course material by submitting issues and pull requests on our GitHub [repo](https://github.com/missing-semester/missing-semester). This includes the captions for the video lectures which are also in the repo (see [here](https://github.com/missing-semester/missing-semester/tree/master/static/files/subtitles/2020)).
+## رهنمون مشارکت در متن
 
-## Translation guidelines
+شما می‌توانید با بازکردن [issue](https://github.com/cs-fum/cs-fum.github.io/issues/new/choose) روی صفحه گیت‌هاب هر گونه پیشنهادات، اصلاحات و انتقادات خود را بیان کنید. یا می‌توانید با باز کردن [pull request](https://github.com/cs-fum/cs-fum.github.io/compare) خود مستقیماً کد منبع را تغییر دهید. این حتی می‌تواند شامل زیرنویس برای ویدئوها نیز شود.
 
-You are free to translate the lecture notes and exercises as long as you follow the license terms.
-If your translation mirrors the course structure, please contact us so we can link your translated version from our page.
 
-For translating the video captions, please submit your translations as community contributions in YouTube.
+## رهنمون مشارکت در ترجمه
 
+برای مشارکت در ترجمه در ابتدا می‌بایست با باز کردن یک [issue](https://github.com/cs-fum/cs-fum.github.io/issues/new/choose) فایل مورد نظر را مطرح کنید. این کار باعث می‌شود تا نام شما و فایل در [جدول](https://github.com/cs-fum/cs-fum.github.io/blob/master/README.md) قرار بگیرد که مانع دوباره‌کاری بقیه اعضا می‌شود.
+
+بعد از آن می‌توانید شروع به ترجمه در برنچ tr-meta کنید. سعی کنید به ازای ترجمه هر فایل تنها یک کامیت کنید.
+
+برای هماهنگی بیشتر نیز می‌توانید به [گروه تلگرامی](https://t.me/csfum_group) انجمن علمی علوم کامپیوتر دانشگاه فردوسی مشهد بپیوندید.
