@@ -1,8 +1,6 @@
 ---
 layout: page
 title: ترم گمشده شما در علوم کامپیوتر
-# This property tells Jekyll that the page should be RTL by default
-direction: rtl
 ---
 
 کلاس‌ها به شما همه‌چیز درباره علوم کامپیوتر یاد می‌دهند. از سیستم‌عامل گرفته تا یادگیری ماشین.
@@ -27,9 +25,7 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 **Office hours**: 32-G9 lounge, 3pm--4pm (every day, right after lecture)
 {% endcomment %}
 
-
-<!-- This is a sample that shows you how you can have LTR in RTL markdown file (.ltr class) -->
-<ul class="ltr">
+<ul>
 {% assign lectures = site['2020'] | sort: 'date' %}
 {% for lecture in lectures %}
     {% if lecture.phony != true %}
