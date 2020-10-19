@@ -38,7 +38,7 @@ bundle exec jekyll serve -w
 | [security.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/_2020/security.md)  | [@amirzlf](https://github.com/amirzlf)  | درحال ترجمه |
 | [potpourri.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/_2020/potpourri.md) |    | ترجمه نشده |
 | [qa.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/_2020/qa.md) |   | ترجمه نشده |
-| [about.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/about.md)  |  | ترجمه نشده |
+| [about.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/about.md)  | [@DearRude](https://github.com/DearRude)  | درحال ترجمه |
 | [license.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/license.md)  | [@DearRude](https://github.com/DearRude)  | ترجمه شده |
 | [index.md](https://github.com/cs-fum/cs-fum.github.io/blob/master/index.md)  | [@DearRude](https://github.com/DearRude)  | ترجمه شده |
 
