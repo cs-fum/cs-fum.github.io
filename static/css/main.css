@@ -168,6 +168,11 @@ hr {
 
 /* Classes */
 
+.english-txt{
+  direction: ltr;
+  text-align: left;
+}
+
 .title {
   font-size: 2rem;
 }
