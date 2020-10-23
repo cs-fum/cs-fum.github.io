@@ -20,26 +20,28 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 
 # فهرست
 
+<div class="english-txt">
 {% comment %}
 **Lecture**: 35-225, 2pm--3pm<br>
 **Office hours**: 32-G9 lounge, 3pm--4pm (every day, right after lecture)
 {% endcomment %}
 
-<ul>
-{% assign lectures = site['2020'] | sort: 'date' %}
-{% for lecture in lectures %}
-    {% if lecture.phony != true %}
-        <li>
-        <strong>{{ lecture.date | date: '%-m/%d' }}</strong>:
-        {% if lecture.ready %}
-            <a href="{{ lecture.url }}">{{ lecture.title }}</a>
-        {% else %}
-            {{ lecture.title }} {% if lecture.noclass %}[no class]{% endif %}
-        {% endif %}
-        </li>
-    {% endif %}
-{% endfor %}
-</ul>
+  <ul>
+  {% assign lectures = site['2020'] | sort: 'date' %}
+  {% for lecture in lectures %}
+      {% if lecture.phony != true %}
+          <li>
+          <strong>{{ lecture.date | date: '%-m/%d' }}</strong>:
+          {% if lecture.ready %}
+              <a href="{{ lecture.url }}">{{ lecture.title }}</a>
+          {% else %}
+              {{ lecture.title }} {% if lecture.noclass %}[no class]{% endif %}
+          {% endif %}
+          </li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+</div>
 همین‌طور می‌توانید همین مباحث را به‌صورت ویدئو [در یوتوب](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J) (به زبان انگلیسی) مشاهده کنید.
 
 # درباره این کلاس
@@ -50,23 +52,28 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
 
 این دوره کمی فراتر از  این وبگاه است و در جاهای مختلفی به اشتراک گذاشته شده. برای پیدا کردن پست‌ها و گفت‌وگو‌های بیشتر درباره این دوره، می‌توانید به مسیرهای زیر سر بزنید:
 
- - [Hacker News](https://news.ycombinator.com/item?id=22226380)
- - [Lobsters](https://lobste.rs/s/ti1k98/missing_semester_your_cs_education_mit)
- - [/r/learnprogramming](https://www.reddit.com/r/learnprogramming/comments/eyagda/the_missing_semester_of_your_cs_education_mit/)
- - [/r/programming](https://www.reddit.com/r/programming/comments/eyagcd/the_missing_semester_of_your_cs_education_mit/)
- - [Twitter](https://twitter.com/jonhoo/status/1224383452591509507)
- - [YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
+<ul class="english-txt">
+  <li><a href="https://news.ycombinator.com/item?id=22226380">Hacker News</a></li>
+  <li><a href="https://lobste.rs/s/ti1k98/missing_semester_your_cs_education_mit">Lobsters</a></li>
+  <li><a href="https://www.reddit.com/r/learnprogramming/comments/eyagda/the_missing_semester_of_your_cs_education_mit/">/r/learnprogramming</a></li>
+  <li><a href="https://www.reddit.com/r/programming/comments/eyagcd/the_missing_semester_of_your_cs_education_mit/">/r/programming</a></li>
+  <li><a href="https://twitter.com/jonhoo/status/1224383452591509507">Twitter</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J">YouTube</a></li>
+</ul>
 
 # به زبان‌های دیگر
 
-- [Chinese (Simplified)](https://missing-semester-cn.github.io/)
-- [Chinese (Traditional)](https://missing-semester-zh-hant.github.io/)
-- [Korean](https://missing-semester-kr.github.io/)
-- [Portuguese](https://missing-semester-pt.github.io/)
-- [Serbian](https://netboxify.com/missing-semester/)
-- [Spanish](https://missing-semester-esp.github.io/)
-- [Turkish](https://missing-semester-tr.github.io/)
-- [Vietnamese](https://missing-semester-vn.github.io/)
+<ul class="english-txt">
+  <li><a href="https://missing-semester-cn.github.io/">Chinese (Simplified)</a></li>
+  <li><a href="https://missing-semester-zh-hant.github.io/">Chinese (Traditional)</a></li>
+  <li><a href="https://missing-semester-kr.github.io/">Korean</a></li>
+  <li><a href="https://missing-semester-pt.github.io/">Portuguese</a></li>
+  <li><a href="https://netboxify.com/missing-semester/">Serbian</a></li>
+  <li><a href="https://missing-semester-esp.github.io/">Spanish</a></li>
+  <li><a href="https://missing-semester-tr.github.io/">Turkish</a></li>
+  <li><a href="https://missing-semester-vn.github.io/">Vietnamese</a></li>
+  <li><a href="https://cs-fum.github.io/">Persian</a></li>
+</ul>
 
 هنگام این دوره یادداشت‌برداری کرده‌اید؟ می‌توانید آن‌را [اینجا](https://github.com/cs-fum/cs-fum.github.io/pulls) بگذارید تا ما به لیست‌مان اضافه کنیم
 
